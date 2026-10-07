@@ -101,3 +101,84 @@ hr {
 small {
     color: #6b7280;
 }
+/* Search Form */
+
+form {
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    margin-bottom: 5px;
+}
+
+/* Pagination */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    background: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background: #2563eb;
+    color: #ffffff;
+    border-color: #2563eb;
+}
+/* Search Section */
+
+form label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+form input[type="text"] {
+    max-width: 500px;
+    display: inline-block;
+}
+
+form button {
+    width: auto;
+    margin-left: 5px;
+}
+
+form a {
+    margin-left: 10px;
+}
+/* Post Cards */
+
+article {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+article:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+article h2 {
+    margin-bottom: 12px;
+}
+
+article small {
+    display: block;
+    margin-top: 10px;
+}
